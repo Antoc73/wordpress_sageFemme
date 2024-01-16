@@ -28,12 +28,7 @@
 
             <div class=" header_right">
                 <?php wp_nav_menu('menu')?>
-                <?php wp_nav_menu('menu')?>
-                <?php wp_nav_menu('menu')?>
 
-
-
-                
                 <div class="recherche">
                     <form class="margin_header" action="" method="get"> <!--recherche-->
                     <input class=" recherche_form" type="text" name="s" placeholder="recherche...">

@@ -192,16 +192,16 @@ p{
     text-align: center;
 }
 /*------------------------------------------------------------------------*/
-.menu-item-87 a{
+.menu-item-87 a, .menu-item-97 a, .menu-item-93 a{
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
     text-align: center;
     color: #A14444;
     
-}.menu-item-87{
+}.menu-item-87, .menu-item-97, .menu-item-93{
     margin-right: 20px;
-}.menu-menu-container{
+}.menu-menu-container ul, .menu-menu-container{
 
     display: flex;
     justify-content: center;
@@ -298,31 +298,25 @@ p{
 }
 
 @media (max-width: 900px) {
-    .document{
+    .menu-item-93{
       position: absolute;
       margin-top: 80px;
       left: 10vw;
-      color: #ffffff;
+      a{color: #ffffff;}
     }
-    .cabinet{
+    .menu-item-87{
         position: absolute;
         margin-top:  80px;
-        left: 43vw;
+        left: 40vw;
         color: #ffffff;
-    }.menu-item-87{
+        a{color: #ffffff;}
+    }
+    .menu-item-97{
         position: absolute;
         margin-top:  80px;
-        left: 43vw;
+        left: 66vw;
         color: #ffffff;
-    }
-    .menu-item-87 a{
-        color: #ffffff;
-    }
-    .a_propos{
-        position: absolute;
-        margin-top:  80px;
-        left: 70vw;
-        color: #ffffff;
+        a{color: #ffffff;}
     }
     .MHA{
         position: absolute;
@@ -351,6 +345,7 @@ p{
         z-index: 3;
         right: -100em;
         top:2vw;
+        font-size: 24px;
     }
     .Mburger{
         position: absolute;
