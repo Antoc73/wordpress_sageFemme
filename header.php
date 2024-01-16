@@ -27,9 +27,9 @@
             </h3> 
 
             <div class=" header_right">
-                <a href="" class="red margin_header document">DOCUMENTS</a>
                 <?php wp_nav_menu('menu')?>
-                <a href="" class="red margin_header a_propos">A PROPOS</a>
+                <?php wp_nav_menu('menu')?>
+                <?php wp_nav_menu('menu')?>
 
 
 

@@ -191,17 +191,23 @@ p{
     font-size: 14px;
     text-align: center;
 }
-.menu-item-870,a{
+/*------------------------------------------------------------------------*/
+.menu-item-87 a{
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
     text-align: center;
-    color: #ffffff;
+    color: #A14444;
+    
+}.menu-item-87{
     margin-right: 20px;
+}.menu-menu-container{
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*--------------------------------------------------------------------------*/
 
 
 #toggleButton {
@@ -307,6 +313,9 @@ p{
         position: absolute;
         margin-top:  80px;
         left: 43vw;
+        color: #ffffff;
+    }
+    .menu-item-87 a{
         color: #ffffff;
     }
     .a_propos{
